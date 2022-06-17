@@ -10,4 +10,4 @@ rm -rf /opt/cni
 rm -rf /var/lib/etcd
 rm -rf /var/etcd
 yum clean all
-yum remove kube*
+yum remove kube* -y
